@@ -1,22 +1,22 @@
-#Markdown template
+# Markdown template
 
-##Konstantin Pykhtin
+## Konstantin Pykhtin
 
-###Contacts
+### Contacts
 
-###About me
-*Email
+### About me
+* Email
 
-###Skills
-*Html
-*Css
-###Code example
+### Skills
+* Html
+* Css
+### Code example
 
-###Work experience
+### Work experience
 
-###Education
+### Education
 
-###Languages
- *Russian - native
- *English - Intermediate
+### Languages
+ * Russian - native
+ * English - Intermediate
 
