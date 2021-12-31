@@ -2,9 +2,14 @@
 ##Konstantin Pykhtin
 ###Contacts
 ###About me
+*Email
 ###Skills
+*Html
+*Css
 ###Code example
 ###Work experience
 ###Education
-###Languages 
+###Languages
+ *Russian - native
+ *English - Intermediate
 
