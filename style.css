@@ -95,7 +95,17 @@
     border-bottom: 1px solid #eaecef;
 }
 
+.highlight{
+    background-color: rgba(120, 135, 131, 0.3);
+}
+
 .footer {
     border: 1px solid black;
     background-color: rgba(120, 135, 131, 0.3);
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
