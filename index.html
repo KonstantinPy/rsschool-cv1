@@ -4,9 +4,123 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body class="text">
-    Hy
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="icon" href="assets/favicon.ico">
+    <title>cv</title>
+    </head>
+<body class="body">
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section">
+                <img class="img" src="./assets/image1.jpg" alt="avatar">
+                <h1 class="section-title">Konstantin Pykhtin</h1>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">My contacts</h2>
+                <ul>
+                    <li>Adress: Russian Federation, Moscow</li>
+                    <li>Discord:Konstantin Py#5785</li>
+                    <li>E-mail: <a class="link" target="_blank" href="mailto:k.pyhtin@gmail.com">k.pyhtin@gmail.com</a></li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>
+                    After serving in the army, I decided to change my life for the better. I was fascinated by the idea of programming. Friends who already work in this field pushed me to this path.I am very grateful to them. Now I am discovering new horizons for myself and I am not going to stop.
+                </p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>HTML5, CSS3</li>
+                    <li>JavaScript Basics</li>
+                    <li>Git, GitHub</li>
+                    <li>Vs code</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <div>
+                    <pre class="highlight">
+                        <code>
+    function multiply(a, b) {
+      return a * b;
+    }
+                        </code>
+                    </pre>
+                </div>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul>
+                    <li>HTML and CSS Tutorials on the <a target="_blank" class="link" href="https://ru.code-basics.com/">code-basics</a>(completed)</li>
+                    <li>JavaScript Manual on <a target="_blank" class="link" href="https://learn.javascript.ru/">learnjavascript.ru</a>(in progress)</li>
+                    <li>RS Schools Course "JavaScript/Front-end.Stage O"(in progress)</li>
+                </ul>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul>
+                    <li>
+                        <a target="_blank" class="link" href="https://github.com/KonstantinPy/rsschool-cv">My first project</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul>
+                    <li>
+                        Graduate of School No. 1287 with Advanced Study of English
+                    </li>
+                    <li>
+                        Incomplete higher education at the Medeleev University(3 courses)
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul>
+                    <li>
+                        English-Intermediate(according to the online test at <a target="_blank" class="link" href="https://www.efset.org/">www.efset.org</a>)
+                    </li>
+                    <li>
+                        Russian-Native
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-info">
+                <span>
+                     &copy;<time>2022</time> 
+                     <a target="_blank" class="link" href="https://github.com/KonstantinPy">Konstantin Pykhtin</a>
+                </span>
+                <a target="_blank" href="https://rs.school/js/">
+                <img class="img2" src="./assets/rs_school_js.ico" alt="rs_school icon">
+                </a>
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
